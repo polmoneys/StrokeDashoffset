@@ -48,6 +48,7 @@ const StrokeDashoffset = ({
 
   const clonedPathElement = cloneElement(children, {
     ref: pathRef,
+    shapeRendering: 'geometricPrecision',
   })
 
   return (
